@@ -12,20 +12,34 @@ We have a vertical grid board with 6 rows and 7 columns.
 
 Included files:
 ConnectFourGym - defines a gym environment for the game, inherits from the gym.Env class
+
 runner - class used to train and evaluate 
+
 agentq - defines class AgentAI, which represents an AI agent trained using the Q-learning algorithm
+
 v5 - defines function which represents strategy using agentq
+
 v2x - defines function which represents strategy using heuristics
+
 left - defines function which represents strategy choosing leftmost column
+
 main - plays game for two choosen agents and creates statistics
+
 q_values - pickle file for q values generated during training
+
 output - html file which shows a game (training)
 
 imported libraries:
 random
+
 numpy
+
 pandas
+
 pickle
+
 gym
+
 gym -> spaces
+
 kaggle_environment -> evaluate, make
