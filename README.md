@@ -14,6 +14,7 @@ We have a vertical grid board with 6 rows and 7 columns.
 
 
 Included files:
+
 ConnectFourGym - defines a gym environment for the game, inherits from the gym.Env class
 
 runner - class used to train and evaluate 
